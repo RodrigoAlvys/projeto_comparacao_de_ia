@@ -1,0 +1,73 @@
+{
+  "dataset_sha256": "3faeeb2f0be4102ec2e9e571dbdc125e9900697cce0367844cb72f17670b3a51",
+  "teste_sha256": "23fe47cb928d6d953e9a2372861a39f3c3c76acbf47175bc2ee4d12b981e5f85",
+  "linhas_originais": 129019,
+  "contagem_original": {
+    "2": 79261,
+    "0": 33757,
+    "1": 16001
+  },
+  "remocoes": {
+    "duplicata": 2353,
+    "rotulos_conflitantes": 50
+  },
+  "textos_conflitantes": 24,
+  "linhas_limpas": 126616,
+  "n_treino": 101292,
+  "n_validacao": 25324,
+  "n_teste": 100,
+  "classes_treino": {
+    "2": 62564,
+    "0": 26062,
+    "1": 12666
+  },
+  "classes_validacao": {
+    "1": 3166,
+    "0": 6516,
+    "2": 15642
+  },
+  "classes_teste": {
+    "2": 40,
+    "0": 43,
+    "1": 17
+  },
+  "semente": 42,
+  "entrada_modelo": "somente review_text/comentario; sem nome ou descricao do produto",
+  "classes_csv": {
+    "0": "negativo",
+    "1": "neutro_ou_ambiguo",
+    "2": "positivo"
+  },
+  "mapa_teste_para_csv": {
+    "-1": 0,
+    "0": 1,
+    "1": 2
+  },
+  "origem_mapeamento": "Confirmacao do usuario: 0 negativo, 1 neutro ou ambiguo, 2 positivo.",
+  "normalizacao_deduplicacao": "Unicode NFKC, casefold, normalizacao de espacos; nao remove pontuacao",
+  "hiperparametros": "Fixados antes da avaliacao; sem busca ou selecao pelo teste.",
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 100000,
+    "sublinear_tf": true,
+    "lowercase": true,
+    "stop_words": null
+  },
+  "regressao_logistica": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "tol": 0.0001
+  },
+  "versoes": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "numpy": "2.3.5",
+    "joblib": "1.6.0"
+  }
+}

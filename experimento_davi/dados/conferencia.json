@@ -1,0 +1,15 @@
+{
+  "arquivo_origem": "teste_ia.jsonl",
+  "sha256_origem": "23fe47cb928d6d953e9a2372861a39f3c3c76acbf47175bc2ee4d12b981e5f85",
+  "grupos": 5,
+  "total_comentarios": 100,
+  "classes": {
+    "positivo": 40,
+    "negativo": 43,
+    "neutro": 17
+  },
+  "duplicatas_exatas_ignorando_caixa_e_espacos_externos": 0,
+  "alteracao_de_rotulos": false,
+  "treinamento_executado": false,
+  "avaliacao_executada": false
+}

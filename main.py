@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # ==========================================
 # 1. CARREGAR E PREVER
 # ==========================================
-dataset_token = load_from_disk("dataset_token")
+dataset_token = load_from_disk("./datasets/dataset_token")
 dataset_token.set_format("torch")
 modelo = BertForSequenceClassification.from_pretrained("./content/modelo_final")
 
@@ -42,7 +42,7 @@ print(classification_report(
 # 3. DATAFRAME DE AUDITORIA
 # ==========================================
 # Carrega o JSONL como DataFrame (o arquivo tem 1 comentário por linha)
-df_resultados = pd.read_json("data_test.jsonl", lines=True, orient="records", encoding="utf-8")
+df_resultados = pd.read_json("./datasets/data_test.jsonl", lines=True, orient="records", encoding="utf-8")
 
 # Adiciona as previsões
 df_resultados['classe_esperada'] = df_resultados['label']

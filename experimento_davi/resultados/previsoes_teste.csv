@@ -1,0 +1,101 @@
+﻿id,grupo,texto,rotulo_teste_original,classe_esperada,classe_prevista,acertou,prob_negativo,prob_neutro_ou_ambiguo,prob_positivo
+g01_c01,1,"Produto excelente, superou minhas expectativas!",1,positivo,positivo,1,0.0001489004265449069,0.006769881403586169,0.9930812181698688
+g01_c02,1,"A bateria dura o dia todo, muito bom.",1,positivo,positivo,1,0.009255390499997797,0.29428836300784766,0.6964562464921545
+g01_c03,1,"Câmera incrível, fotos nítidas e coloridas.",1,positivo,positivo,1,0.0669843605974457,0.2137110051476158,0.7193046342549385
+g01_c04,1,"Chegou rápido e bem embalado, recomendo.",1,positivo,positivo,1,0.00206080818910384,0.0704535405731965,0.9274856512376997
+g01_c05,1,"Melhor celular que já tive, vale cada centavo.",1,positivo,positivo,1,0.011768692751271261,0.014821113829247558,0.9734101934194813
+g01_c06,1,Desempenho ótimo em jogos e multitarefa.,1,positivo,positivo,1,0.012697994107357342,0.05362919189673788,0.9336728139959047
+g01_c07,1,"Tela linda, cores vivas e brilho forte.",1,positivo,positivo,1,0.06086266923155739,0.0722487561994309,0.8668885745690118
+g01_c08,1,"Muito satisfeito com a compra, nota 10.",1,positivo,positivo,1,0.004065025018805422,0.0483433386332351,0.9475916363479595
+g01_c09,1,"Rápido, fluido e com ótimo acabamento.",1,positivo,positivo,1,0.014617403668903557,0.2069441113648366,0.7784384849662598
+g01_c10,1,"Custo-benefício excelente, adorei.",1,positivo,positivo,1,0.00019477589047567852,0.017829643511366774,0.9819755805981575
+g01_c11,1,A bateria esquenta um pouco ao carregar.,-1,negativo,negativo,1,0.4137011525750635,0.2705739319208342,0.3157249155041023
+g01_c12,1,Câmera frontal deixa a desejar à noite.,-1,negativo,neutro_ou_ambiguo,0,0.20165445643463845,0.5705093197445064,0.22783622382085508
+g01_c13,1,"Veio com um arranhão na tela, decepcionado.",-1,negativo,negativo,1,0.9099090998372181,0.07276618263744801,0.017324717525333756
+g01_c14,1,O som do alto-falante é fraco.,-1,negativo,negativo,1,0.8799155947830305,0.06920819062794976,0.05087621458901982
+g01_c15,1,Travou algumas vezes no primeiro dia.,-1,negativo,negativo,1,0.7218859943163102,0.16389495494169828,0.11421905074199153
+g01_c16,1,Atualização do sistema trouxe bugs.,-1,negativo,neutro_ou_ambiguo,0,0.22992851063480954,0.4872047310521747,0.2828667583130159
+g01_c17,1,Esquenta bastante durante o uso prolongado.,-1,negativo,positivo,0,0.27090370190889845,0.22650089652352481,0.5025954015675768
+g01_c18,1,"O celular é ok, nada de especial.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.1822046471326696,0.6382370370265099,0.17955831584082058
+g01_c19,1,"Cumpre o que promete, sem grandes surpresas.",0,neutro_ou_ambiguo,positivo,0,0.029585156460102496,0.29132452255428354,0.6790903209856141
+g01_c20,1,"Design bonito, mas funcionalidade mediana.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.03729875088959036,0.8715503542105798,0.09115089489982986
+g02_c01,2,"Cancelamento de ruído perfeito, isola tudo!",1,positivo,positivo,1,0.07227001269258027,0.13577169606700487,0.791958291240415
+g02_c02,2,"Bateria dura muito, uso por dias sem carregar.",1,positivo,positivo,1,0.257152245377591,0.20612852506574297,0.5367192295566661
+g02_c03,2,"Som limpo e graves potentes, adorei.",1,positivo,positivo,1,0.03430862548022767,0.06879030160197935,0.896901072917793
+g02_c04,2,Confortável para usar por horas seguidas.,1,positivo,neutro_ou_ambiguo,0,0.18790623861199318,0.45018086346608266,0.3619128979219241
+g02_c05,2,Conexão Bluetooth estável e rápida.,1,positivo,positivo,1,0.21496295942297716,0.3519449176105287,0.43309212296649424
+g02_c06,2,"Melhor fone que já comprei, recomendo.",1,positivo,positivo,1,0.06038145857347817,0.13921227305000958,0.8004062683765122
+g02_c07,2,"Microfone ótimo em chamadas, todos me ouvem bem.",1,positivo,positivo,1,0.005856218443878411,0.0909324740240004,0.9032113075321211
+g02_c08,2,"Resistente à água, usei na academia sem problema.",1,positivo,positivo,1,0.23215545390117842,0.1660711496737558,0.6017733964250658
+g02_c09,2,Acabamento premium e muito bonito.,1,positivo,positivo,1,0.10455361206647376,0.33406039928276354,0.5613859886507626
+g02_c10,2,"Custo-benefício ótimo, superou expectativas.",1,positivo,positivo,1,0.001777958578208445,0.10520157147619326,0.8930204699455982
+g02_c11,2,O cancelamento de ruído parou de funcionar.,-1,negativo,negativo,1,0.9385268341079799,0.04381728592818382,0.017655879963836333
+g02_c12,2,"Bateria não dura o anunciado, decepção.",-1,negativo,negativo,1,0.9730149531490968,0.02335058762761137,0.0036344592232919306
+g02_c13,2,Um lado do fone parou de emitir som.,-1,negativo,negativo,1,0.728029835190928,0.18647942068544818,0.0854907441236238
+g02_c14,2,Desconecta sozinho com frequência.,-1,negativo,negativo,1,0.44557307905891463,0.3796805570641574,0.174746363876928
+g02_c15,2,O material parece frágil e barato.,-1,negativo,negativo,1,0.8896926496024191,0.08682067625771639,0.023486674139864386
+g02_c16,2,Incômodo nas orelhas após uma hora de uso.,-1,negativo,negativo,1,0.7166686490843477,0.19630287031697752,0.08702848059867478
+g02_c17,2,O som é abafado e sem clareza.,-1,negativo,negativo,1,0.38001934167108836,0.2843920932151999,0.3355885651137117
+g02_c18,2,"O fone é razoável, mas nada excepcional.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.21291865596570397,0.49443414649666395,0.29264719753763213
+g02_c19,2,"Funciona bem, mas o preço é salgado.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.04508704163119134,0.7189429848201083,0.23596997354870033
+g02_c20,2,"Design comum, desempenho mediano.",0,neutro_ou_ambiguo,positivo,0,0.15475006010462997,0.20625586242851213,0.6389940774668579
+g03_c01,3,"Notebook rápido e leve, perfeito para trabalho.",1,positivo,positivo,1,0.006595182746142238,0.15485228241990784,0.8385525348339499
+g03_c02,3,"Liga em segundos graças ao SSD, excelente.",1,positivo,positivo,1,0.026910065841319657,0.09055276223975436,0.8825371719189259
+g03_c03,3,"Tela Full HD linda, ótima para assistir vídeos.",1,positivo,positivo,1,0.03163871186094114,0.0905529765895254,0.8778083115495335
+g03_c04,3,"Roda tudo sem travar, muito potente.",1,positivo,positivo,1,0.08362539847886274,0.05333132851856173,0.8630432730025756
+g03_c05,3,"Design fino e elegante, chama atenção.",1,positivo,positivo,1,0.18657056932790111,0.218363523162329,0.5950659075097698
+g03_c06,3,"Bateria dura bastante, ótimo para viagens.",1,positivo,positivo,1,0.005697206714713648,0.11766331278094705,0.8766394805043393
+g03_c07,3,"Melhor notebook que já tive, recomendo.",1,positivo,positivo,1,0.031103915236632845,0.08138824969303614,0.887507835070331
+g03_c08,3,Silencioso mesmo em tarefas pesadas.,1,positivo,positivo,1,0.05622692764898002,0.15916382704275991,0.7846092453082602
+g03_c09,3,Teclado confortável e retroiluminado.,1,positivo,positivo,1,0.12721889916182597,0.25256836280210737,0.6202127380360667
+g03_c10,3,Custo-benefício excelente para o hardware.,1,positivo,positivo,1,0.0017751563994658807,0.05988432981145238,0.9383405137890818
+g03_c11,3,Superaquece e desliga sozinho às vezes.,-1,negativo,negativo,1,0.5706335969541753,0.29012348017157835,0.13924292287424633
+g03_c12,3,A ventoinha faz muito barulho.,-1,negativo,neutro_ou_ambiguo,0,0.348256811686875,0.4199257092038765,0.23181747910924846
+g03_c13,3,"Veio com a tela manchada, péssimo.",-1,negativo,negativo,1,0.9692581595292513,0.02786545185175007,0.0028763886189985587
+g03_c14,3,Bateria viciou em poucos meses.,-1,negativo,negativo,1,0.5962887907220891,0.12014908877274556,0.28356212050516544
+g03_c15,3,O WiFi desconecta constantemente.,-1,negativo,neutro_ou_ambiguo,0,0.2906615900525313,0.48918621503467463,0.22015219491279417
+g03_c16,3,Teclado com teclas falhando.,-1,negativo,positivo,0,0.36735458199653115,0.21572517040561745,0.41692024759785135
+g03_c17,3,Assistência técnica demorou demais.,-1,negativo,negativo,1,0.46965995866362736,0.42593372113633604,0.1044063202000366
+g03_c18,3,"É um notebook ok, faz o básico.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.034885273454526966,0.8665335386365242,0.09858118790894876
+g03_c19,3,"Atende o esperado, sem novidades.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.0409838952897375,0.8363771910141214,0.12263891369614117
+g03_c20,3,"Bom, mas o preço poderia ser menor.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.01897434658635651,0.9311081948132328,0.04991745860041067
+g04_c01,4,"Café delicioso, parece de cafeteria!",1,positivo,negativo,0,0.4306210861592382,0.2593809867759174,0.30999792706484425
+g04_c02,4,Moedor integrado é prático e eficiente.,1,positivo,positivo,1,0.0352218074689675,0.2073856311068542,0.7573925614241782
+g04_c03,4,"Fácil de usar e limpar, adorei.",1,positivo,positivo,1,0.0042863160959172465,0.09057321751986241,0.9051404663842203
+g04_c04,4,"Design lindo em inox, enfeita a cozinha.",1,positivo,positivo,1,0.06256754924296115,0.10543533336173107,0.8319971173953079
+g04_c05,4,Vaporização do leite perfeita para cappuccino.,1,positivo,positivo,1,0.06673505222794342,0.2145577611756405,0.7187071865964161
+g04_c06,4,"Melhor cafeteira que já tive, recomendo.",1,positivo,positivo,1,0.017755979111738394,0.06092414061111036,0.9213198802771512
+g04_c07,4,"Café sai quente e cremoso, excelente.",1,positivo,positivo,1,0.05878686517614736,0.0957488250597133,0.8454643097641392
+g04_c08,4,"Vale cada centavo, qualidade superior.",1,positivo,positivo,1,0.0360322456385859,0.05010807685893859,0.9138596775024754
+g04_c09,4,Funções automáticas facilitam muito.,1,positivo,positivo,1,0.16015794806040934,0.21728769854364754,0.6225543533959431
+g04_c10,4,"Superou minhas expectativas, nota 10.",1,positivo,positivo,1,0.00422574946484234,0.05313624953089054,0.9426380010042671
+g04_c11,4,"Vazou água pela base, defeito grave.",-1,negativo,negativo,1,0.567594105965712,0.27831504911473554,0.15409084491955255
+g04_c12,4,O moedor entupiu em uma semana.,-1,negativo,negativo,1,0.4032116748551071,0.22370655948092763,0.3730817656639653
+g04_c13,4,"Café sai frio, decepcionante.",-1,negativo,negativo,1,0.660476281712759,0.17959477531406223,0.1599289429731788
+g04_c14,4,"Difícil de limpar, acumula resíduos.",-1,negativo,neutro_ou_ambiguo,0,0.24080261313050705,0.4066483472803796,0.3525490395891134
+g04_c15,4,Parou de funcionar após um mês.,-1,negativo,negativo,1,0.9540593378866525,0.029492608288362764,0.01644805382498485
+g04_c16,4,O vapor não funciona direito.,-1,negativo,negativo,1,0.9492084689486026,0.043072237823520355,0.00771929322787716
+g04_c17,4,Barulhenta demais ao moer.,-1,negativo,negativo,1,0.41188466950380337,0.3523285760891157,0.23578675440708094
+g04_c18,4,"Faz café ok, mas nada especial.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.08489486049435653,0.5728502541160306,0.3422548853896128
+g04_c19,4,"Funciona, porém o preço é alto.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.16425876407032058,0.7033147520706529,0.13242648385902664
+g04_c20,4,"Razoável, mas esperava mais.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.178042072381978,0.7939718895143417,0.027986038103680267
+g05_c01,5,Esse livro é excelente... como apoio de porta!,-1,negativo,positivo,0,0.029154005659168408,0.0651567919215479,0.9056892024192837
+g05_c02,5,Que obra-prima! Nunca dormi tão bem.,-1,negativo,positivo,0,0.18806028128294563,0.11141352004659166,0.7005261986704626
+g05_c03,5,Recomendadíssimo! Para quem quer testar a resistência da paciência.,-1,negativo,positivo,0,0.21573129642860514,0.22002000211515246,0.5642487014562424
+g05_c04,5,Iluminou minha vida... principalmente a parte de baixo da mesa torta.,-1,negativo,negativo,1,0.8538012894389065,0.03170832721554045,0.11449038334555306
+g05_c05,5,Cada página é uma bênção. Só faltou o conteúdo.,-1,negativo,neutro_ou_ambiguo,0,0.10695371773388082,0.45384608099616974,0.43920020126994946
+g05_c06,5,Li em dois dias. Foram os dois dias mais longos da minha vida.,-1,negativo,positivo,0,0.267615789463944,0.2627912623696878,0.4695929481663681
+g05_c07,5,Profundo como uma piscina infantil.,-1,negativo,negativo,1,0.6197045154918129,0.15194062701997932,0.2283548574882078
+g05_c08,5,Palavras não descrevem... e olha que o livro tem 250 páginas delas.,-1,negativo,negativo,1,0.6397314919164349,0.16046708983582453,0.19980141824774067
+g05_c09,5,Me fez refletir muito. Sobre por que comprei.,-1,negativo,neutro_ou_ambiguo,0,0.3005877417253877,0.36988002895758415,0.3295322293170282
+g05_c10,5,"Ótimo para acender a lareira, queimou devagar.",-1,negativo,positivo,0,0.0893888560555097,0.2585029994876443,0.652108144456846
+g05_c11,5,"Que livro abençoado, consegui segurar a porta com ele o dia todo.",-1,negativo,positivo,0,0.22668601164088986,0.17999246573340694,0.5933215226257033
+g05_c12,5,"A capa é linda, e é só isso que salva.",-1,negativo,positivo,0,0.21311659637226887,0.20007780073153608,0.586805602896195
+g05_c13,5,"Textos curtos, ideais para quem tem preguiça de ler.",-1,negativo,positivo,0,0.18939709039814623,0.22275585587352686,0.5878470537283269
+g05_c14,5,Me emocionei... de raiva.,-1,negativo,negativo,1,0.7280883631413737,0.12404320105885677,0.14786843579976952
+g05_c15,5,Finalmente um livro que me fez dormir sem remédio.,-1,negativo,positivo,0,0.2270024047158817,0.16111979509806257,0.6118778001860558
+g05_c16,5,"Chegou em perfeito estado, pena que o conteúdo não.",0,neutro_ou_ambiguo,positivo,0,0.0182199766052604,0.37662217761964134,0.6051578457750981
+g05_c17,5,"Ainda estou lendo, tem umas partes interessantes.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.17240469100573738,0.6979413080299228,0.12965400096433982
+g05_c18,5,"É um livro religioso comum, cumpre o básico.",0,neutro_ou_ambiguo,positivo,0,0.05913857851764179,0.40671441008335707,0.5341470113990012
+g05_c19,5,"Comprei por indicação, ainda não sei o que achar.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.17567334056763806,0.43098690017443575,0.3933397592579262
+g05_c20,5,"Algumas reflexões são boas, outras parecem repetidas.",0,neutro_ou_ambiguo,neutro_ou_ambiguo,1,0.07807677798272088,0.6791398436188514,0.24278337839842762
